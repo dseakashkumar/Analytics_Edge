@@ -32,7 +32,7 @@ Adding location (via a KNN approach) to the regression improved explanatory powe
 - `data/data_center_inventory_sample_sep_2025_with_Balancing_Authorities.csv` - the 300-row sample dataset
 - `Linear Regression_Akash.R` - data cleaning, annual trend aggregation, regression forecast, and visualization
 - `spatial_analysis.R` - state-level choropleth mapping of total power capacity
-- `spatial_model.rmd` - exploratory spatial data setup (in progress)
+- `spatial_model.rmd` - exploratory spatial data setup
 
 ## Requirements
 
