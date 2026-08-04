@@ -33,7 +33,18 @@ Adding location (via a KNN approach) to the regression improved explanatory powe
 - `Linear Regression_Akash.R` - data cleaning, annual trend aggregation, regression forecast, and visualization
 - `spatial_analysis.R` - state-level choropleth mapping of total power capacity
 - `spatial_model.rmd` - exploratory spatial data setup
+- `figures/` - exported chart images from the analysis (see Output Figures section below)
 
+## Output Figures
+
+All charts referenced in the project report are available as image files in the `figures/` folder:
+
+- `figures/figure1_total_power_by_state.png` - choropleth map of total power capacity by state
+- `figures/figure2_residuals_linear_vs_spatial_knn.png` - residuals comparison between the linear regression and spatial KNN models
+- `figures/exhibit1_2_elbow_silhouette_clustering_table.png` - elbow curve, silhouette score, and clustering typology table used to select K = 5
+- `figures/exhibit3_power_over_time.png` - evolution of data center power capacity over time by cluster
+- `figures/exhibit4a_distribution_by_cluster.png` - distribution of power capacity by cluster
+- `figures/exhibit4b_geographic_distribution_of_clusters.png` - geographic distribution of cluster memberships
 ## Requirements
 
 R with the following packages: tidyverse, lubridate, scales, sf, maps, ggplot2, tigris, spdep
